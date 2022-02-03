@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign In</title>
+
+
+        <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
+        <!-- <script>
+            document.write("hello")
+        </script> -->
+    </head>
+    <body>
+        <div class="error-message bg-danger text-white text-center py-1 d-none">
+            Login details are Incorrect
+        </div>
+        <div class="input-message bg-white text-danger text-center py-1 border-bottom border-danger border-3 d-none">
+            input fields can't be blank
+        </div>
+        <div class="success-message bg-success text-white text-center py-1 d-none">
+            Logged in Successfully!
+        </div>
+        <div class=" container py-4 d-flex justify-content-center">
+
+            <form action="" id="form" class="shadow p-4 d-block my-3 rounded-3 w-50">
+
+                <p class="h2 mb-4 mt-2 text-secondary">Login</p>
+
+                <label for="username" class="d-block mb-3">
+                    <span class="text-secondary small">username</span>
+                    <input type="text" id="username" class=" form-action d-block rounded-3 border border-secondary p-1 w-100">
+                </label>
+
+                <label for="password" class="d-block mb-3">
+                    <span class="text-secondary small">password</span>
+                    <input type="password" id="password" class="form-action d-block p-1 rounded-3 border border-secondary w-100">
+                </label>
+
+                <button type="submit" class="border border-3 rounded-3 text-white border-success bg-success w-100 p-1">Sign In</button>
+
+                <a href="./signup.html" class="small mt-2 ms-2 d-block">Register?</a>
+
+            </form>
+        </div>
+
+
+        <script src="./login.js"></script>
+        <script src="./bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    </body>
+</html>
