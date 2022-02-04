@@ -1,5 +1,5 @@
 ## User Authentication Using LocalStorage
-This project was aimed at validating user login details using local storage.
+This project was aimed at validating user login details using Web Storage API.
 ##### Built using: `Vanilla Js, Bootstrap 5 and Local Storage`
 
 First off, an account gets created, 
